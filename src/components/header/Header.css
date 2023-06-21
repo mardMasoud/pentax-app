@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto:300,400,500,700");
+
+
+
+.header {
+ 
+  background-color: rgb(0, 193, 13);
+}
+.nav {
+  background-color: rgb(216, 155, 112);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.menu___item{
+    margin-right: 40px;
+}
+.menu__link {
+  color: black;
+ font-weight: 500;
+ line-height: 80px;
+  font: 500 14px/80px "Roboto", sans-serif;
+ 
+  
+}
+.btn-search{
+margin-left: 5rem;
+}
+.link--search{
+    color: #1a1d24;
+    font-size: 14px;
+    font-weight: 900
+}
