@@ -15,7 +15,7 @@ function Navbar() {
             <img src="images/logo1.webp" alt="" className="logo__img" />
           </div>
 
-          <div className="hamber col-6 d-lg-none ms-auto " onClick={show1}>
+          <div className="hamber col-6 d-lg-none align-items-end " onClick={show1}>
             <div className="child child1"></div>
             <div className="child child2"></div>
             <div className="child child3"></div>
@@ -23,9 +23,8 @@ function Navbar() {
           <div className="menu col-12 pt-3 " style={{ display: show }}>
             <ul>
               {listMenu.map((item) => (
-                <li className="mb-4">
-                  <a src="#">{item}</a>
-                </li>
+      
+                <a href="#" className="text-dark"><li className="border p-4">{item}</li></a>
               ))}
             </ul>
           </div>
