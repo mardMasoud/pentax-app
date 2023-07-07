@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto:300,400,500,700");
+
+.logo{
+}
+.nav1{
+    background-color: #fff;
+    z-index: 99;
+}
+
+#menu{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+}
