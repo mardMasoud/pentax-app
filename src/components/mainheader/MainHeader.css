@@ -1,6 +1,21 @@
-.header__main{
-    height: 500px;
-   
+.mainheader{
+   position: relative;
+   top: 0;
+   left: 0;
+   margin-top: 5rem;
+}
+.container{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.header{
+  height: 500px;
+  width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+  z-index: 5;
     background-image: url('images/home-banner.jpg');
-    background-position: center;
+    background-position: center center;
 }

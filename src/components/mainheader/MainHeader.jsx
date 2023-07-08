@@ -4,11 +4,9 @@ import Nav from "../nav/Nav";
 function MainHeader() {
   return (
     <div className="mainheader">
-     
-        <div className="header__main ">
-<Nav/>
-        </div>
-     
+    <div className="container position-absolout">
+      <div className="header"></div>
+    </div>
     </div>
   );
 }
