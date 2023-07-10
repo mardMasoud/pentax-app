@@ -1,9 +1,10 @@
 import React from "react";
 import "./MainHeader.css";
 import Nav from "../nav/Nav";
+
 function MainHeader() {
   return (
-    <div className="mainheader row">
+    <div className="mainheader row  mt-lg-0 ">
       
         <div className="header col">
           <div className="header__content d-flex align-items-center justify-content-center h-100">

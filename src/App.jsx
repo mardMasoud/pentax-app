@@ -3,14 +3,19 @@ import MainHeader from "./components/mainheader/MainHeader";
 
 import Nav from "./components/nav/Nav";
 
+
 function App() {
   return (
     <>
       <div className="">
-        
-        <Nav />
+     
+      <Nav />
+      
+       
+       
         <MainHeader />
-      </div>
+      
+         </div>
     </>
   );
 }
