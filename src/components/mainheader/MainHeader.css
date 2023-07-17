@@ -1,16 +1,18 @@
 .mainheader{
    position: absolute;
-  
+  left: 0;
    top:0;
+   right: 0;
+   margin-top: 80px;
    
-   margin-top: 96px;
-   width: 100%;
 }
 
 .header{
-  min-height: 500px;
- 
+
+height: 500px;
  
     background-image: url('images/home-banner.jpg');
-    background-position: center ;
+    background-position: center  ;
+  
+
 }

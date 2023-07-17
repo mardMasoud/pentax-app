@@ -45,5 +45,8 @@ table {
 a{
 	text-decoration: none;
 }
-
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto:300,400,500,700");
+body{
+	font-family: 'Roboto', sans-serif;
+}
 
