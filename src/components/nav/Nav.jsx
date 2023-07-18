@@ -21,11 +21,11 @@ function Nav() {
     <div className="nav1">
       <div className="container">
         <div className="row  align-items-center ">
-          <div className="logo col-11  col-lg-4  ">
+          <div className="logo col-9  col-lg-4  ">
             <img src="images/logo1.webp" alt="" className="logo__img" />
           </div>
-          <div className="col-1 d-lg-none py-3   ">
-            <div className="ber ">
+          <div className="col-3 d-lg-none py-3   ">
+            <div className="ber d-flex justify-content-center ">
               <Hamburger
                 toggled={isOpen}
                 toggle={setOpen}
@@ -33,7 +33,7 @@ function Nav() {
                   setopen(!isActive);
                 }}
                 color="#f81c1c"
-                size="25"
+                size="20"
                 aria-controls="menu"
                 aria-expanded={isActive}
               />
